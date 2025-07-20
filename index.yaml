@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   internal-service:
   - apiVersion: v2
+    appVersion: 0.4.1
+    created: "2025-07-20T20:09:53.111099845Z"
+    description: Internal service helm chart
+    digest: 8242412b35c5abd5c0a0c89d4c7c951525341e11e3d80e0b79288f23e50735aa
+    name: internal-service
+    type: application
+    urls:
+    - https://github.com/Singullaritty/homework/releases/download/internal-service-0.4.1/internal-service-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v2
     appVersion: 0.4.0
     created: "2025-07-20T12:24:29.999945894Z"
     description: Internal service helm chart
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/Singullaritty/homework/releases/download/internal-service-0.4.0/internal-service-0.4.0.tgz
     version: 0.4.0
-generated: "2025-07-20T12:24:29.999953498Z"
+generated: "2025-07-20T20:09:53.111108391Z"
