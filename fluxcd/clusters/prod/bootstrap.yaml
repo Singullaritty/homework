@@ -7,8 +7,8 @@ spec:
   interval: 10m0s
   sourceRef:
     kind: GitRepository
-    name: flux-system
-  path: ./overlays/prod
+    name: homework
+  path: ./fluxcd/overlays/prod
   prune: true
   wait: true
   timeout: 5m0s
