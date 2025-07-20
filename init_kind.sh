@@ -18,18 +18,6 @@ if ! [ -x "$(command -v kubectl)" ]; then
   exit 1
 fi
 
-# Generate config for kind cluster
-cat > $KIND_CLUSTER_CFG <<EOF
-# 4 node (3 workers) config
-kind: Cluster
-apiVersion: kind.x-k8s.io/v1alpha4
-nodes:
-- role: control-plane
-- role: worker
-- role: worker
-- role: worker
-EOF
-
 # Deploy cluster with kind
 kind create cluster --name $KIND_CLUSTER_NAME --config $KIND_CLUSTER_CFG
 
