@@ -6,8 +6,10 @@ metadata:
 spec:
   chart:
     spec:
-      version: 0.4.0
+      version: 0.4.1
   values:
     prod: false
     podLabels:
       app: internal-service-dev
+  affinity:
+    enabled: false
