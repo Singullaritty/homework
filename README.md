@@ -14,6 +14,32 @@ init_kind.sh    # Bash script for preparing kind cluster
 kind-cfg.yaml   # Config file for kind cluster
 ```
 
+## 📋 Requirements
+
+Before getting started, make sure you have the following tools installed on your workstation:
+
+### 1. [kind (Kubernetes IN Docker)](https://kind.sigs.k8s.io/)
+Kind run local Kubernetes clusters using Docker containers. [Kind installation guide](https://kind.sigs.k8s.io/docs/user/quick-start/)
+
+### 2. [Helm](https://helm.sh/)
+Helm is the package manager for Kubernetes.
+
+Helm installation guide: [https://helm.sh/docs/intro/install/](https://helm.sh/docs/intro/install/)
+
+### 3. [kubectl](https://kubernetes.io/docs/tasks/tools/)
+kubectl is the command-line tool for interacting with Kubernetes cluster.
+
+Install guide: [https://kubernetes.io/docs/tasks/tools/](https://kubernetes.io/docs/tasks/tools/)
+
+### 4. [FluxCD CLI](https://fluxcd.io/)
+FluxCD is an open-source GitOps continuous delivery (CD) tool designed for Kubernetes.
+
+Install guide: [https://fluxcd.io/flux/installation/#install-the-flux-cli](https://fluxcd.io/flux/installation/#install-the-flux-cli)
+
+### 5. [Docker](https://www.docker.com/)
+Docker is an open source platform that enables developers to build, deploy, run, update and manage containerized applications.
+
+Install guide: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 
 ## Documentation
 

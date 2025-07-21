@@ -1,3 +1,4 @@
+# use multi-stage build to reduce the image size
 FROM golang:1.24-bullseye AS build
 WORKDIR /opt
 COPY web-app/ ./
