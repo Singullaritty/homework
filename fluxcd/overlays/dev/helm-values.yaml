@@ -11,5 +11,3 @@ spec:
     prod: false
     podLabels:
       app: internal-service-dev
-  affinity:
-    type: preferred
