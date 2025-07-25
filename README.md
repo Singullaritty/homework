@@ -24,22 +24,22 @@ Kind run local Kubernetes clusters using Docker containers. [Kind installation g
 ### 2. [Helm](https://helm.sh/)
 Helm is the package manager for Kubernetes.
 
-Helm installation guide: [https://helm.sh/docs/intro/install/](https://helm.sh/docs/intro/install/)
+Helm installation guide: [Helm installation guide](https://helm.sh/docs/intro/install/)
 
 ### 3. [kubectl](https://kubernetes.io/docs/tasks/tools/)
 kubectl is the command-line tool for interacting with Kubernetes cluster.
 
-Install guide: [https://kubernetes.io/docs/tasks/tools/](https://kubernetes.io/docs/tasks/tools/)
+Install guide: [Kubernetes installation guide](https://kubernetes.io/docs/tasks/tools/)
 
 ### 4. [FluxCD CLI](https://fluxcd.io/)
 FluxCD is an open-source GitOps continuous delivery (CD) tool designed for Kubernetes.
 
-Install guide: [https://fluxcd.io/flux/installation/#install-the-flux-cli](https://fluxcd.io/flux/installation/#install-the-flux-cli)
+Install guide: [FluxCD cli installation guide](https://fluxcd.io/flux/installation/#install-the-flux-cli)
 
 ### 5. [Docker](https://www.docker.com/)
 Docker is an open source platform that enables developers to build, deploy, run, update and manage containerized applications.
 
-Install guide: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+Install guide: [Docker installation guide](https://docs.docker.com/get-docker/)
 
 ## Documentation
 
